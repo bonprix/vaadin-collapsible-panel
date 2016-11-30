@@ -5,7 +5,7 @@
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>vaadin-collapsible-panel-demo</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>CollapsiblePanel Add-on Demo</name>
 
 	<prerequisites>
@@ -104,7 +104,7 @@
 				</configuration>
 			</plugin>
 
-<plugin>
+			<plugin>
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>2.4.1</version>
 				<configuration>
