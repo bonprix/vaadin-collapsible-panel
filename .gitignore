@@ -1,19 +1,28 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+rebel.xml
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
 build/
 coverage.ec
 /target
 target
 velocity.log
 velocity.log*
-war
-*.war
 src/main/webapp/VAADIN/gwt-unitCache*
-src/main/webapp/VAADIN/widgetsets*
+*/src/main/webapp/VAADIN/widgetsets*
 src/main/webapp/VAADIN/widgetsets/*
-*/src/main/webapp/VAADIN/themes*
-*/src/main/webapp/VAADIN/themes/*
 .classpath
 .project
+*/.settings/
 .settings
-rebel.xml
-test-output
-*/bin
