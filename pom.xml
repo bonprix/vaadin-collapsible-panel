@@ -5,7 +5,7 @@
 	<groupId>org.vaadin.addons</groupId>
 	<artifactId>vaadin-collapsible-panel-root</artifactId>
 	<packaging>pom</packaging>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.2</version>
 	<name>CollapsiblePanel Add-on Root Project</name>
 
 	<prerequisites>
