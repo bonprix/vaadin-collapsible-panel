@@ -10,7 +10,6 @@ import com.google.gwt.user.client.EventListener;
 import com.google.gwt.user.client.ui.InlineHTML;
 import com.vaadin.client.ComponentConnector;
 import com.vaadin.client.ServerConnector;
-import com.vaadin.client.VConsole;
 import com.vaadin.client.communication.RpcProxy;
 import com.vaadin.client.communication.StateChangeEvent;
 import com.vaadin.client.extensions.AbstractExtensionConnector;
@@ -52,10 +51,9 @@ public class CollapsiblePanelConnector extends AbstractExtensionConnector implem
 
 	@Override
 	public void onAttachOrDetach(final AttachEvent event) {
-		VConsole.error("onAttack: " + event.isAttached());
 		if (event.isAttached()) {
-			this.panel.captionNode	.getStyle()
-									.setCursor(Cursor.POINTER);
+			this.panel.captionNode.getStyle()
+				.setCursor(Cursor.POINTER);
 			this.bullet.setHTML(openIconHTML);
 
 			// this is the small arrow picture
@@ -97,8 +95,8 @@ public class CollapsiblePanelConnector extends AbstractExtensionConnector implem
 
 	private void expand(final boolean fireRpc) {
 		if (this.collapsed) {
-			this.panel	.getElement()
-						.insertBefore(this.panel.contentNode, this.panel.bottomDecoration);
+			this.panel.getElement()
+				.insertBefore(this.panel.contentNode, this.panel.bottomDecoration);
 			this.bullet.setHTML(openIconHTML);
 			this.collapsed = false;
 

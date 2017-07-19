@@ -1,0 +1,1 @@
+$wnd.org_vaadin_addons_demo_DemoWidgetSet.runAsyncCallback2('lab(1678,1,VNd);_.Xb=function zcc(){FWb((!xWb&&(xWb=new NWb),xWb),this.a.d)};kId(vh)(2);\n//# sourceURL=org.vaadin.addons.demo.DemoWidgetSet-2.js\n')
